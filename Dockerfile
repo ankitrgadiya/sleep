@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 
-ENTRYPOINT ["sleep", "infinity"]
+RUN apt update && apt install curl -y
